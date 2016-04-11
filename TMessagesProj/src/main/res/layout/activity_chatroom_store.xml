@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/store_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/store_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffffff"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/frame_drable">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="right"
+                android:lineSpacingMultiplier="1.3"
+                android:text="@string/chatroom_store_text"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+           <RelativeLayout
+               android:id="@+id/store_product1"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_below="@+id/t1"
+               android:background="@drawable/regbtn_states"
+               android:layout_marginTop="20dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp">
+               <TextView
+                   android:id="@+id/store_price_label1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:text="@string/chatroom_product1"
+                   android:gravity="center"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="15dp"
+                   android:textColor="#FFFFFF"
+                   android:textStyle="bold"
+                   android:textSize="18sp"/>
+               <TextView
+                   android:id="@+id/store_price_tv1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:text="1000 t"
+                   android:gravity="center"
+                   android:layout_alignParentLeft="true"
+                   android:layout_marginLeft="15dp"
+                   android:textColor="#FFFFFF"
+                   android:textStyle="bold"
+                   android:textSize="18sp"/>
+               <Button
+                   android:id="@+id/store_buy_button1"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_below="@+id/store_price_tv"
+                   android:background="#00FFFFFF"/>
+           </RelativeLayout>
+
+
+           <RelativeLayout
+               android:id="@+id/store_product2"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_below="@+id/store_product1"
+               android:background="@drawable/regbtn_states"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp">
+               <TextView
+                   android:id="@+id/store_price_label2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:text="@string/chatroom_product2"
+                   android:gravity="center"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="15dp"
+                   android:textColor="#FFFFFF"
+                   android:textStyle="bold"
+                   android:textSize="18sp"/>
+               <TextView
+                   android:id="@+id/store_price_tv2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:text="1000 t"
+                   android:gravity="center"
+                   android:layout_alignParentLeft="true"
+                   android:layout_marginLeft="15dp"
+                   android:textColor="#FFFFFF"
+                   android:textStyle="bold"
+                   android:textSize="18sp"/>
+               <Button
+                   android:id="@+id/store_buy_button2"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_below="@+id/store_price_tv"
+                   android:background="#00FFFFFF"/>
+           </RelativeLayout>
+
+
+           <RelativeLayout
+               android:id="@+id/store_product3"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_below="@+id/store_product2"
+               android:background="@drawable/regbtn_states"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="30dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp">
+               <TextView
+                   android:id="@+id/store_price_label3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:text="@string/chatroom_product3"
+                   android:gravity="center"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="15dp"
+                   android:textColor="#FFFFFF"
+                   android:textStyle="bold"
+                   android:textSize="18sp"/>
+               <TextView
+                   android:id="@+id/store_price_tv3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:text="1000 t"
+                   android:gravity="center"
+                   android:layout_alignParentLeft="true"
+                   android:layout_marginLeft="15dp"
+                   android:textColor="#FFFFFF"
+                   android:textStyle="bold"
+                   android:textSize="18sp"/>
+               <Button
+                   android:id="@+id/store_buy_button3"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_below="@+id/store_price_tv"
+                   android:background="#00FFFFFF"/>
+           </RelativeLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

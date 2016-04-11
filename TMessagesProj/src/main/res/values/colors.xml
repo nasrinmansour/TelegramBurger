@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider">#dcdcdc</color>
+    <color name="tab_bottom_color">#ffffff</color>
+    <color name="tab_selected_bottom_color">#00edf0</color>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/list_item_store_package_icon"
+        android:background="#999" />
+
+    <ImageView
+        android:id="@+id/list_item_store_package_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/channel_image_default" />
+
+    <ImageView
+        android:id="@+id/list_item_store_package_new_label"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/list_item_store_package_icon"
+        android:layout_marginLeft="-35dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/new_label"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/list_item_store_package_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/list_item_store_package_icon"
+        android:layout_alignLeft="@+id/list_item_store_package_icon"
+        android:layout_alignRight="@+id/list_item_store_package_icon"
+        android:layout_alignTop="@+id/list_item_store_package_icon"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/list_item_store_package_icon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/list_item_store_package_icon"
+        android:layout_toLeftOf="@+id/list_item_store_package_icon"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/list_item_store_package_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="right|bottom"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
